@@ -1,0 +1,72 @@
+/* ---------- Mediaqueris ---------- */
+
+@media screen and (max-width:1000px) {
+    .cards {
+        .cards__card {
+            width: 45%;
+        }
+    }
+    .galeria {
+        .galeria__imagen {
+            .galeria__encima {
+                &:hover {
+                    opacity: 1;
+                    h2 {
+                        transform: scale(1.3);
+                    }
+                    div {
+                        width: 90px;
+                    }
+                }
+                h2 {
+                    font-size: 0.9rem;
+                }
+                div {
+                    width: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .cards {
+        .cards__card {
+            width: 100%;
+        }
+    }
+    .galeria {
+        justify-content: center;
+        flex-wrap: wrap;
+        .sesgoArriba {
+            display: none;
+        }
+        .galeria__imagen {
+            width: 45%;
+            height: 300px;
+        }
+        .imgFinal {
+            display: none;
+        }
+        .sesgoAbajo {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .cabecera {
+        .cabecera__titulo {
+            font-size: 2rem;
+        }
+        .cabecera__subtitulo {
+            font-size: 1.2rem;
+        }
+    }
+    .acerca-de__titulo {
+        font-size: 2rem;
+    }
+    .acerca-de__slogan {
+        font-size: 1.2rem;
+    }
+}
