@@ -22,9 +22,11 @@
     <main>
         <section class="acerca-de">
             <div class="contenedor">
-                <h2 class="acerca-de__sobreNosotros">Sobre nosotros</h2>
+                <h2 class="acerca-de__titulo">Sobre nosotros</h2>
                 <h3 class="acerca-de__slogan">Haciendo codigo</h3>
-                <p class="acerca-de__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime non nobis necessitatibus deleniti eligendi possimus sunt labore blanditiis quod omnis.</p>
+                <p class="acerca-de__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quo at quae impedit veniam quam repellat aut recusandae laudantium. Vel voluptate doloremque repellendus, distinctio
+                    deserunt vero, nam molestiae illum odit molestias voluptatem vitae nesciunt at? Eum cumque modi ea quia eligendi? Sed iste delectus eligendi id. Distinctio pariatur ex voluptatum. Maxime non nobis necessitatibus deleniti eligendi possimus
+                    sunt labore blanditiis quod omnis.</p>
                 <p class="acerca-de__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate corporis nemo quas! Est adipisci ab mollitia Lorem ipsum, dolo Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis velit aliquam deserunt officia reiciendis
                     qui accusamus ipsum eius vel asperiores. Autem ad in sed aspernatur a distinctio tempore quae molestias. r sit amet consectetur adipisicing elit. Quae, iure..</p>
                 <a class="btn--acerca-de" href="#">Ingresa</a>
@@ -36,44 +38,60 @@
             <div class="sesgoArriba"></div>
             <div class="galeria__imagen">
                 <img src="img/1.jpg" alt="">
+                <div class="galeria__encima">
+                    <h2>Creatividad</h2>
+                    <div></div>
+                </div>
             </div>
             <div class="galeria__imagen">
                 <img src="img/2.jpg" alt="">
+                <div class="galeria__encima">
+                    <h2>Compromiso</h2>
+                    <div></div>
+                </div>
             </div>
             <div class="galeria__imagen">
                 <img src="img/4.jpeg" alt="">
                 <div class="galeria__encima">
-                    <h2>YouSay</h2>
+                    <h2>Diversion</h2>
                     <div></div>
                 </div>
             </div>
             <div class="galeria__imagen">
                 <img src="img/3.jpg" alt="">
+                <div class="galeria__encima">
+                    <h2>Optimismo</h2>
+                    <div></div>
+                </div>
             </div>
 
-            <div class="galeria__imagen">
+            <div class="galeria__imagen imgFinal">
                 <img src="img/5.jpeg" alt="">
+                <div class="galeria__encima">
+                    <h2>Seriedad</h2>
+                    <div></div>
+                </div>
             </div>
             <div class="sesgoAbajo"></div>
         </section>
 
         <section class="miembros">
             <div class="contenedor">
-                <h2 class="miembros__sobre-nosotros">Nuestro equipo</h2>
-                <h3 class="slogan">Conoce a nuestro equipo de trabajo</h3>
-                <div class="miembros__cards">
-                    <div class="miembros__card">
-                        <img src="img/logo.jpg" alt="">
+                <h2 class="acerca-de__titulo">Nuestro equipo</h2>
+                <h3 class="acerca-de__slogan--rgba">Conoce a nuestro equipo de trabajo</h3>
+                <div class="cards">
+                    <div class="cards__card">
+                        <img class="cards__img" src="img/logo.jpg" alt="">
                         <h4>Ariel Vasquez</h4>
                         <p>Lorem ipsum dolor sit.</p>
                     </div>
-                    <div class="miembros__card">
-                        <img src="img/logo.jpg" alt="">
+                    <div class="cards__card">
+                        <img class="cards__img" src="img/logo.jpg" alt="">
                         <h4>Ariel Vasquez</h4>
                         <p>Lorem ipsum dolor sit.</p>
                     </div>
-                    <div class="miembros__card">
-                        <img src="img/logo.jpg" alt="">
+                    <div class="cards__card">
+                        <img class="cards__img" src="img/logo.jpg" alt="">
                         <h4>Ariel Vasquez</h4>
                         <p>Lorem ipsum dolor sit.</p>
                     </div>
@@ -82,10 +100,10 @@
         </section>
 
         <section class="fondo">
-            <!--<div class="sesgoArriba"></div>-->
+            <div class="sesgoArriba"></div>
             <div class="contenedor">
-                <h2 class="fondo__titulo-patrocinadores">Nuestros clientes</h2>
-                <h3 class="fondo__subtitulo-patrocinadores">Conoce a algunos de nuestro patrocinadores</h3>
+                <h2 class="acerca-de__titulo--white">Nuestros clientes</h2>
+                <h3 class="acerca-de__slogan--white">Conoce a algunos de nuestro patrocinadores</h3>
                 <div class="fondo__clientes">
                     <div class="fondo__cliente">
                         <img src="img/cliente1.png" alt="">
@@ -97,23 +115,23 @@
                         <img src="img/cliente3.png" alt="">
                     </div>
                 </div>
-                <h3 class="fondo__subtitulo-patrocinadores especial">y muchos más clientes</h3>
+                <h3 class="acerca-de__parrafo--white">Y muchos clientes más...</h3>
             </div>
-            <!--<div class="sesgoAbajo--fondo"></div>-->
+            <div class="sesgoAbajo--fondo"></div>
         </section>
     </main>
 
 
     <footer class="footer">
         <div class="contenedor">
-            <h2 class="footer__titulo">Contactanos</h2>
-            <h3 class="footer__subtitulo">Lo apreciariamos mucho</h3>
+            <h2 class="acerca-de__titulo--white">Contactanos</h2>
+            <h3 class="acerca-de__slogan--white">Lo apreciariamos mucho</h3>
             <div class="footer__contFormulario">
-                <form action="">
-                    <input type="text" placeholder="Nombre">
-                    <input type="email" placeholder="Correo">
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
-                    <input type="submit">
+                <form class="formulario" action="">
+                    <input class="formulario__text" type="text" placeholder="Nombre">
+                    <input class="formulario__email" type="email" placeholder="Correo">
+                    <textarea class="formulario__textarea" name="" id="" cols="30" rows="10" placeholder="Ingrese su mensaje..."></textarea>
+                    <input class="formulario__submit" type="submit" value="Enviar">
                 </form>
             </div>
         </div>
